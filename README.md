@@ -2,15 +2,11 @@
 
 ```bash
 export FLASK_APP=hello.py
+export FLASK_ENV=development
 flask run
 ```
 
 外部可见
 ```bash
 flask run --host=0.0.0.0
-```
-
-调试模式
-```bash
-export FLASK_ENV=development
 ```
