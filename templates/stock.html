@@ -1,6 +1,6 @@
 <!-- This code block creates a search form with a text input and a submit button -->
-<form action="{{ url_for('portfolio') }}" method="GET">
-  <input type="text" name="code" placeholder="Search...">
+<form action="{{ url_for('sjkzr') }}" method="GET">
+  <input type="text" name="code" value="{{request.args.get('code', 'SH600161')}}" placeholder="Search...">
   <button type="submit">Search</button>
 </form>
 
